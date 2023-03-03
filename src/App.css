@@ -6,7 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+#re{
+  background-color: green;
+  margin-left: 9px;
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,6 +27,27 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.Nav:hover{
+  transform: skewY(15deg);
+  transform: skewX(15deg);
+  animation-delay: 100ms;
+  text-decoration: none;
+  font-size: 20px;
+}
+.parentFlex{
+display: flex;
+}
+.flex{
+  border: 1px soldi black;
+  border-radius: 12px 23px ;
+  padding: 5px;
+  position:sticky;
+}
+.Title{
+  font-family:cursive;
+  font-size: larger;
+  text-decoration: none;
+}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +60,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* for flex components */
+.flex:hover{
+  transform:translateY(3px);
+}
+.flex1{
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px black;
 }
